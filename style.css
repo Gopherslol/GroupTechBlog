@@ -17,6 +17,10 @@ body a {
 body a:hover {
   color: #ba05fc;
 }
+
+body h2 {
+  text-align: center;
+}
     
 .navbar {
   overflow: hidden;
@@ -25,7 +29,8 @@ body a:hover {
   border-radius: 20px;
   top: 50px;
   margin: 0 auto;
-  width: 85%;
+  width: 90%;
+  margin-bottom: 25px;
 }
 
 .navbar a {
@@ -38,18 +43,18 @@ body a:hover {
 }
 
 .navbar a:hover {
-  background-color: #ae5cbc;
+  background-color: #fc05ca;
   color: #ffffff;
 }
 
 .main {
   background-color: #333;
   margin: 0 auto;
-  margin-top: 25px;
   width: 90%;
   color: #ffffff;
   border-radius: 20px;
   text-indent: 10px;
+  padding: 10px 10px;
 }
 
 .main p {
@@ -63,16 +68,29 @@ body a:hover {
 }
 
 .footer {
-  background-color: #333;
-  color: #ffffff;
-  margin: 0 auto;
-  padding: 14px 16px;
-  width: 85%;
-  border-radius: 20px;
-  margin-top: 30px;
+ text-align: center;
 }
 
-.footer p {
- text-align: center;
- 
+
+
+.author {
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: #515151;
+  width: 20%;
+  padding: 10px 10px;
+  margin: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.author p {
+  color: #ffffff;
+  size: 5px;
+}
+
+.author img {
+  border-radius: 30px;
+  
+  
 }
