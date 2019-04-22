@@ -101,9 +101,21 @@ body h2 {
   margin: 0 auto;
 }
 
+.author img:hover {
+  animation-name: profilepic;
+  animation-duration: .25s;
+  animation-fill-mode: forwards;
+}
+
 .author a {
   text-align: center;
   display: block;
   text-indent: 0px;
   padding: 0px 0px;
+}
+
+@keyframes profilepic {
+  100% {
+    border-radius: 10px;
+  }
 }
