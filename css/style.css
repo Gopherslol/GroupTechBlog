@@ -12,6 +12,7 @@ body {
 
 body a {
   color: #fc05ca;
+  font-weight: bold;
 }
 
 body a:hover {
@@ -20,6 +21,10 @@ body a:hover {
 
 body h2 {
   text-align: center;
+}
+
+body p {
+  padding: 15px;
 }
     
 .navbar {
@@ -61,8 +66,8 @@ body h2 {
   margin: 0 auto;
   text-align: center;
   line-height: 1.25;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .main b {
