@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+   <title>Rhizomatix Blog: Experiments in Technology as Freedom!</title>
+  </head>
+
+ <body>
+
+  <link rel="stylesheet" type="text/css" href="/article.css">
+  <div class="navbar">
+   <a href="/index.html"><b>Home</b></a>
+   <a href="/articles.html"><b>Articles</b></a>
+   <a href="/resources.html"><b>Resources</b></a>
+   <a href="/about.html"><b>About</b></a>
+  </div> 
+
+  <div class="main">
+   <p><h2><b style="color: #ffffff;">Alternative Network Spotlight: Freenet</b></h2></p>
+<p>Freenet is a piece of peer to peer software that is used for censorship resistant file sharing and information exchange. The network has been in development for considerably longer than many others, more that 18 years. It is in version 0.7.5, as of May, 2019. The official clearnet site is available <a href=“https://freenetproject.org”>Here</a>.
+</p>
+<br>
+<h2>
+How does it work?
+ </h2>
+<br>
+<p>Freenet is a fully decentralized network; there are no central servers. In fact, there are no servers in the traditional sense. All data on the network is distributed across several nodes. When you request a file, your node asks the ones that it is connected to if they have the data and they ask the ones they are connected to and so on. As long as there are enough nodes with fragments of the file, you can reassemble and view it on your machine. This system prevents censorship by companies and governments as well as not requiring a computer with amazing uptime to reliably host your site. Unlike Tor or i2p, the data is spread throughout the network. The downside to this method is that it requires a lot of time for your node to become fully bootstrapped onto the network and several hours before you can get good performance. This will happen any time your node is down for more than a few minutes.
+<br>
+<p>Typically, when you connect to Freenet, you will be in open-net mode. In this mode, your node will connect to any other nodes on the network. If you add &quot;friends,&quot; it will prioritize connecting to them. If you know enough people who use Freenet, you can enter darknet mode. In this mode, you only connect to friendly nodes, increasing your anonymity and making it more difficult to detect that you are running Freenet. If one of your friends is connected to you, but not in darknet mode, you can access the rest of Freenet through them.
+</p>
+<br>
+<h2>Content Creation</h2>
+<br>
+<p>For a network like this to be successful, there must be content to access. In the case of Freenet, most of this stuff is HTML files in the form of freesites. They function just like a regular website, except they are decentralized. You can also add any other kind of file to the network. Another distinctive aspect of Freenet is that it splits files into blocks and distributes them across multiple nodes. No single node can have the entire file and the blocks are cached on multiple nodes. This allows for greater performance, accessibility and redundancy should one of the nodes go offline.
+</p>
+<br>
+<p>&quot;So,&quot; I hear you say (in my fevered imagination), &quot;This is all great, but can I actually do anything but view sites?&quot; Yes. Yes, you can. A huge variety of tools have been built for Freenet, their purposes ranging from social media to email to microblogging. Most of these programs utilize the Web of Trust plugin. This lets you create an identity for use throughout the programs and helps prevent spam. WoT identities have trust values, if you encounter somebody who is, overall a pretty cool frood, you can give them a high trust value. If you meet another person who is a jerk or a spammer, you can assign them a low trust value. When somebody’s trust value gets too low, their visibility starts to drop across the board. If you send spam over FMS (Freenet Messaging System) people will stop seeing your posts on Sone (Freenet’s main social media).
+<br>
+<p>Unfortunately Freenet seems to have degraded over time, slowly turning into a haven for both illegal and distasteful content. This, however only applies to open-net mode. This is not where Freenet truly shines. If you can gather enough people to switch to darknet mode, you will get an amazing platform for sharing information, storing files and communicating. This, in my opinion, is the saving grace of Freenet. When in darknet mode, all programs built for Freenet should work just fine. This means that you can create a private social network with Sone, insert full sites with jSite and even send email using Freemail. To do this, you just have to exchange &quot;noderefs&quot; with everyone who will be a part of the network, then flip the switch to leave open-net and enter your hidden domain.
+<p>
+<br>
+<p><h2>Final Verdict</h2></p>
+<br>
+<p>I see Freenet as a great platform that has been overcome by negative content. Take away that content and you get an amazing platform. If you can put together a big enough group, it is certainly a viable communication platform. If anybody has any input, DM me on Mastodon <Link to Mastodon>
+ </h4>
+ <div class="author">
+    <a href="/users/syrinx.html"><img src="/img/syrinx.png"></a>
+    <p><h4><a href="/users/syrinx.html">Syrinx</a></h4></p>
+   </div>
+   <h4>
+    </body>
+    <p class="footer" style="text-align: center">
+   This site is hosted by <a target="_blank" rel="noopener noreferrer" rel="me" href="https://mastodon.me.uk/@syrinx">@Syrinx</a> and run by a bunch of cool people, including <a target="_blank" rel="noopener noreferrer" rel="me" href="https://scholar.social/@rusty">@Rusty</a>
+   </p>
+
+   <p class="footer" style="text-align: center">
+   Visit our official mastodon page <a target="_blank" rel="noopener noreferrer" rel="me" href="https://freeradical.zone/@RhizomatixBlog">@RhizomatixBlog</a>
+   </p>
+   </h4>
+  </div>
+
+</html>
