@@ -1,22 +1,21 @@
 body {
-    background-image:url('img/background.png');
-    background-position:center top;
-    background-attachment:fixed;
-    background-size: cover;
+    background-color: black;
     margin: 0px;
     color: #000;
     font-family: helvetica, times;
     font-size: 16px;
     margin-top: 10px;
+    text-indent: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }
  
  body a {
-   color: #fc05ca;
+   color: #1381d6;
    font-weight: bold;
  }
  
  body a:hover {
-   color: #ba05fc;
+   color: #75c0f9;
  }
  
  body h2 {
@@ -31,10 +30,10 @@ body {
    overflow: hidden;
    background-color: #333;
    font-family: Arial;
-   border-radius: 15px;
+   border-radius: 5px;
    top: 50px;
    margin: 0 auto;
-   width: 90%;
+   width: 96%;
    margin-bottom: 25px;
  }
  
@@ -48,17 +47,17 @@ body {
  }
  
  .navbar a:hover {
-   background-color: #fc05ca;
+   background-color: #75c0f9;
    color: #ffffff;
  }
  
  .main {
    background-color: #333;
    margin: 0 auto;
-   width: 90%;
+   width: 95%;
    color: #ffffff;
-   border-radius: 15px;
-   text-indent: 20px;
+   border-radius: 5px;
+   text-indent: 0px;
    padding: 10px 10px;
  }
  
@@ -84,7 +83,7 @@ body {
  
  
  .author {
-   border-radius: 15px;
+   border-radius: 5px;
    color: #ffffff;
    background-color: #515151;
    width: 20%;
@@ -108,11 +107,6 @@ body {
    margin: 0 auto;
  }
  
- .author img:hover {
-   animation-name: profilepic;
-   animation-duration: .25s;
-   animation-fill-mode: forwards;
- }
  
  .author a {
    text-align: center;
@@ -121,11 +115,7 @@ body {
    padding: 0px 0px;
  }
  
- @keyframes profilepic {
-   100% {
-     border-radius: 10px;
-   }
- }
+
  
  .announcement {
    color: #f22724;
