@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+ <html>
+  <head>
+   <title>Rhizomatix Blog: Experiments in Technology as Freedom!</title>
+  </head>
+
+  <body>
+
+   <link rel="stylesheet" type="text/css" href="/resource.css">
+   <div class="navbar">
+    <a href="/index.html"><b>Home</b></a>
+    <a href="/articles.html"><b>Articles</b></a>
+    <a href="/resources.html"><b>Resources</b></a>
+    <a href="/about.html"><b>About</b></a>
+   </div> 
+
+   <div class="main">
+       <p><h2><b style="color: #ffffff;">Resources</b></h2></p>
+       <p style="text-align: center">Links and direct downloads of everything mentioned in posts and then some!</p>
+       <br>
+<a href="https://www.archaicbinary.net/bbs">Archaic Binary</a>
+<p>An active BBS that includes games & social networking.</p>
+<br>
+<a href="gopher://bitreich.org">Bitreich</a>
+<p>An organization interested in reviving gopher & simplifying software.</p>
+<br>
+<a href="https://brutaldon.online/about">Brutaldon</a>
+<p>A brutalist web interface for the Mastodon platform.</p>
+<br>
+<a href="https://www.brutalist-web.design/">Brutalist Web Design</a>
+<p>A call for more simple & accessible web design.</p>
+<br>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/cloud-firewall/">Cloud Firewall</a>
+<p>A Firefox add-on devoted to blocking any communications hosted on GAFAM & Cloudflare.</p>
+<br>
+<a href="https://readymag.com/shuffle/dieter-rams/">Dieter Rams- "10 Principles for Good Design"</a>
+<p>An iconic manifesto that influences graphic design to this day. 
+<br>
+<a href="https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html">Edsger Dijkstra- "The Humble Programmer"</a>
+<p>Dijkstra's 1972 ACM Turing Prize lecture. Still relevant. 
+<br>
+<a href="https://www.cs.utexas.edu/users/EWD/">E.W. Dijkstra Archive</a>
+<p>U of Texas' digitized collection of Edsger W. Dijkstra's manuscripts on programming.</p>
+<br>
+<a href="gopher://gopher.floodgap.com/1/">Floodgap's Gopherspace</a>
+<p>THE entry point to the gopersphere. Includes intros, tutorials, & Veronica, a gopher search engine.</p>
+<br>
+<a href="https://freenetproject.org">Freenet</a>
+<p>A peer-to-peer platform for censorship-resistant communication and publishing.</p>
+<br>
+<a href="https://www.cs.cornell.edu/people/egs/615/freenet.pdf">Ian Clarke et al. "Freenet: A Distributed Anonymous Information Storage & Retrieval System"</a> 
+<p>The landmark essay where Freenet is firt theorized.</p>
+<br>
+<a href="https://lynx.invisible-island.net/">Lynx Browser</a>
+<p>The oldest web browser still actively maintained. Text-based, simple, & pre-JavaScript.</p>
+<br>
+<a href="https://joinmastodon.org">Mastodon</a>
+<p>A federated social network; this is the front page for new users to find an instance.</p>
+<br>
+<a href="https://www.mono.org/">Monochrome BBS</a>
+<p>The oldest BBS system in existence</p>
+<br>
+<a href="http://www.motherfuckingwebsite">Motherfucking Website</a>
+<p>A satire on web design bloat.</p>
+<br> 
+<a href="https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM3420.pdf">Paul Baran- "On Distributed Communications"</a> 
+<p>Pioneering 1964 essay for the RAND corporation that theorizes the internet.</p>
+<br>
+<a href="https://prism-break.org/en/">PRISM Break</a>
+<p>A user-friendly guide for escaping proprietary spyware.</p>
+<br>
+<a href="https://www.scuttlebutt.nz/">Secure Scuttlebutt</a>
+<p>The gateway to the decentralized, off-the-grid social network. 
+<br>
+<a href="https://tacticaltech.org/">Tactical Technology Collective</a>
+<p>A group devoted to online privacy & fighting data collection</p>
+<br>
+<a href="https://tilde.black">Tilde.Black</a>
+<p>A public access Unix system focused on anonymity & privacy.</p>
+<br>
+<a href="https://www.torproject.org">Tor Project</a>
+<p>Information about the most accessible of the dark web protocols.</p>
+<br>
+</body>
+</html>
+
+
+
+
+
